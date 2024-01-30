@@ -11,3 +11,11 @@ console.log(path.dirname(__filename))
 // Extensão do arquivo
 
 console.log(path.extname(__filename))
+
+// Informações sobre o arquivo 
+
+console.log(path.parse(__filename))
+
+// Adicionar caminho
+
+console.log(path.join(__dirname, 'test'))
