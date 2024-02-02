@@ -20,14 +20,15 @@ fs.writeFile(path.join(__dirname, '/test', 'test.txt'), 'Hello node!', (error) =
     }
 
     console.log('Arquivo criado com sucesso')
-})
 
-//Adicionar à um arquivo
+    //Adicionar à um arquivo
 
 fs.appendFile(path.join(__dirname, '/test', 'test.txt'), 'hello world!', (error) => {
     if(error){
         return console.log('Erro:', error)
     }
 
-    console.log('Arquivo adicionado com sucesso!')
+        console.log('Arquivo adicionado com sucesso!')
+    })
 })
+
